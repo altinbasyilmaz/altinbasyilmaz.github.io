@@ -1,20 +1,4 @@
 
-/*
-Theme Name:Office
-Theme URI:http://ThemeWagon.com/
-Author:ThemeWagon
-Author URI:http://ThemeWagon.com/
-Description:Creative is a single page html template based on bootstrap 3
-Version:1.0.0
-License:GNU General Public License v2 or later
-License URI:http://www.gnu.org/licenses/gpl-2.0.html
-*/
-
- /*
-* ==========================================================================
-* Global
-* ==========================================================================
-*/
 
 .btn-primary{
   margin-left: 20px;
@@ -381,11 +365,7 @@ p.blog-text{
   }
 }
 
-/*
-* ==========================================================================
-* Feedback Section
-* ==========================================================================
-*/
+
 .feedback-section {
   padding-bottom: 50px;
 }
@@ -419,11 +399,7 @@ p.blog-text{
   margin-bottom: 30px;
 }
 
-/*
-* ==========================================================================
-* Services Section
-* ==========================================================================
-*/
+
 .services-section {
   text-align: center;
   padding-top: 50px;
@@ -478,7 +454,7 @@ p.blog-text{
 }
 
 
-/* ----- Footer ----- */
+
 .footer-widget{
     color:white;
     margin-top: 55px;
@@ -538,11 +514,6 @@ footer h3 {
     background-color: rgb(23, 23, 23);
 }
 
-/*
-* ==========================================================================
-* Custom Sidebar Widgets
-* ==========================================================================
-*/
 
 
 
@@ -557,7 +528,7 @@ footer h3 {
         padding-right: 4px \9;
         padding-left: 3px;
         padding-left: 4px \9;
-        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
  
         margin-bottom: 0;
         -webkit-border-radius: 3px;
@@ -568,12 +539,12 @@ footer h3 {
     #custom-search-input button {
         border: 0;
         background: none;
-        /** belows styles are working good */
+
         padding: 2px 5px;
         margin-top: 2px;
         position: relative;
         left: -28px;
-        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
         margin-bottom: 0;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
@@ -586,11 +557,7 @@ footer h3 {
     }
 
    
-    /*
-* ==========================================================================
-* Image Card
-* ==========================================================================
-*/
+
     .panel{
         margin-top: 30px;
     }
@@ -653,11 +620,7 @@ footer h3 {
     font-style: normal;
 }
 
-/*
-* ==========================================================================
-* Blockquote
-* ==========================================================================
-*/
+
 
 .glyphicon-lg{font-size:3em}
 .blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:25px}
@@ -673,11 +636,7 @@ footer h3 {
 .blockquote-box.blockquote-danger{border-color:#D43F3A}
 .blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
 
-/*
-* ==========================================================================
-* Portfolio
-* ==========================================================================
-*/
+
 .panel-image {
     position: relative;   
 }
@@ -724,11 +683,7 @@ footer h3 {
     font-size: 1.3em;
     color: rgb(100, 100, 100);
 }
-/*
-* ==========================================================================
-* Optional Carousel
-* ==========================================================================
-*/
+
 .carousel-caption .carousel-title {
   color: #ffffff;
 }
