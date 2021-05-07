@@ -1,0 +1,57 @@
+<!-- Footer -->
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3><i class="fa fa-map-marker"></i> İletişim</h3>
+        <p class="footer-iletisim">
+          {{ site.company_name }} <br>
+          Phone: {{ site.telephone_number }} <br>
+          Fax: {{ site.fax_number }} <br>
+          Email: {{ site.company_email }}<br>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-external-link"></i> Linkler</h3>
+        <p><a href="/"> Ana sayfa</a></p>
+        <p><a href="/hakkimizda"> Hakkımızda</a></p>
+        <p><a href=""> Fakülte Dergisi</a></p>
+        <p><a href=""> Fakülte Öğretim Üyeleri</a></p>
+        <p><a href=""> İletişim</a></p>
+
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-heart"></i> Sosyal Medya</h3>
+        <div id="social-icons">
+          {% if site.instagram_link %}
+            <a href="{{ site.instagram_link  }}" class="btn-group -instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+          {% endif %}
+
+          {% if site.linkedin_link %}
+            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          {% endif %}
+
+          {% if site.facebook_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
+
+          {% if site.facebook_link %}
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>    
+    </div>
+  </div>
+
+  <div class="copyright text center">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Bitirme Projesi</a>. <br>Design By Yılmaz Altınbaş</a></p>
+  </div>
+</footer>
